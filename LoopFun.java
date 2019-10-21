@@ -28,10 +28,10 @@ public class LoopFun
           String[] result = phrase.split(" ");
           String acronym = "";
           
-          for (int i = 0; i <= result.length; i++) {
+          for (int i = 0; i < result.length; i++) {
               acronym += result[i].charAt(0);
             }
-          return acronym;
+          return acronym.toUpperCase();
           /*
           result = String.valueOf(phrase.toUpperCase().charAt(0));
           for (int i = 1; i <= phrase.length(); i++) {

@@ -27,6 +27,9 @@ public class StringUtilities {
         for (int i = valueToBeReversed.length() - 1; i >= 0; i--) {
             result += valueToBeReversed.charAt(i);
         }
+        
+        /*StringBuilder sb = new StringBuilder(valueToBeReversed);
+        return String.valueOf(sb.reverse());*/
         return result;
     }
 
